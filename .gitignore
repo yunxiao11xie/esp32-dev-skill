@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build artifacts (if any templates are compiled)
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# Claude Code internal
+.claude/
